@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-uwwa
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-melv-tenant/build-suite-test-application-slmv/test-annotations-uwwa@sha256:1f8a5789cab4f84451583d93882eafa9154369a6f7fb89f6c5033ad8c2e20bf6
         name: my-nginx
         ports:
         - containerPort: 8080
