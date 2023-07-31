@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-uwwa
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-melv-tenant/build-suite-test-application-slmv/test-annotations-uwwa@sha256:1f8a5789cab4f84451583d93882eafa9154369a6f7fb89f6c5033ad8c2e20bf6
+        name: my-nginx
+        resources: {}
+status: {}
