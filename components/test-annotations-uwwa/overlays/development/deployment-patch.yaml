@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/tnevrlka-test/build-e2e-melv-tenant/build-suite-test-application-slmv/test-annotations-uwwa@sha256:1f8a5789cab4f84451583d93882eafa9154369a6f7fb89f6c5033ad8c2e20bf6
+      - image: quay.io/tnevrlka-test/build-e2e-melv-tenant/build-suite-test-application-slmv/test-annotations-uwwa@sha256:787cd0a52cdda55c358978857068680d4026f18140ccde9d0f7040611a8983aa
         name: my-nginx
         resources: {}
 status: {}
